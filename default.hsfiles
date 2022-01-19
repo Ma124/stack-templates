@@ -4,11 +4,11 @@ name: {{name}}
 version: 0.1.0.0
 # TODO synopsis:
 # TODO category:
-description: See <https://gitlab.com/{{gitlab-name}}/{{name}}>
+description: See <https://gitlab.com/{{gitlab-username}}/{{name}}>
 
-git: https://gitlab.com/{{gitlab-name}}/{{name}}.git
-homepage: https://gitlab.com/{{gitlab-name}}/{{name}}
-bug-reports: https://gitlab.com/{{gitlab-name}}/{{name}}/-/issues
+git: https://gitlab.com/{{gitlab-username}}/{{name}}.git
+homepage: https://gitlab.com/{{gitlab-username}}/{{name}}
+bug-reports: https://gitlab.com/{{gitlab-username}}/{{name}}/-/issues
 
 author: {{author-name}}
 copyright: {{copyright}}{{^copyright}}{{year}} {{author-name}}{{/copyright}}
@@ -73,7 +73,7 @@ main = someFunc
 # {{name}}
 
 {-# START_FILE LICENSE #-}
-Copyright {{author-name}} {{year}}
+Copyright {{copyright}}{{^copyright}}{{year}} {{author-name}}{{/copyright}}
 
 All rights reserved.
 
